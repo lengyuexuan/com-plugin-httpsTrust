@@ -1,5 +1,5 @@
 {
-  "name": "httpstrustplugin",
+  "name": "com-plugin-httpsTrust",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
