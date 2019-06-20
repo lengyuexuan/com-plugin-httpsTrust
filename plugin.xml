@@ -1,18 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.plugin.httpsTrust" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-  <name>HTTPSTrustPlugin</name>
-  <js-module name="HTTPSTrustPlugin" src="www/HTTPSTrustPlugin.js">
-    <clobbers target="HTTPSTrustPlugin" />
-  </js-module>
-  <platform name="android">
-    <config-file parent="/*" target="res/xml/config.xml">
-      <feature name="HTTPSTrustPlugin">
-        <param name="android-package" value="com.plugin.httpsTrust.HTTPSTrustPlugin" />
-      </feature>
-    </config-file>
-    <config-file parent="/*" target="AndroidManifest.xml">
-
-    </config-file>
-    <source-file src="src/android/HTTPSTrustPlugin.java" target-dir="src/com/plugin/httpsTrust/HTTPSTrustPlugin" />
-  </platform>
-</plugin>
+<plugin id="com.plugin.httpsTrust" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>HTTPSTrustPlugin</name><js-module name="HTTPSTrustPlugin" src="www/HTTPSTrustPlugin.js"><clobbers target="HTTPSTrustPlugin" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="HTTPSTrustPlugin"><param name="android-package" value="com.plugin.httpsTrust.HTTPSTrustPlugin" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/HTTPSTrustPlugin.java" target-dir="src/com/plugin/httpsTrust/HTTPSTrustPlugin" /></platform><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="HTTPSTrustPlugin"><param name="ios-package" value="HTTPSTrustPlugin" /></feature></config-file><source-file src="src/ios/HTTPSTrustPlugin.m" /></platform></plugin>
